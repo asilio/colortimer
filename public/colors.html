@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link href="/colorstyles.css" rel="stylesheet"/>
+    <base href="/" />
+    <title>Color Timer
+    </title>
+    <style>
+      body { margin: 0; }
+    </style>
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body class="neutral">
+    <noscript>Please enable javascript to use this site</noscript>
+
+    <script type="module" src="/colortimer.js"></script>
+    
+    <div id="inputs">
+      <label>Minutes:</label><input id="timer" type=""/>
+      <button id="submit">Start Timer</button><br/><br/>
+    <label>Target Time:</label><input id="datetime" type="datetime-local"/>
+    <button id="calculate">Calcuate Minutes</button>
+    </div>
+    
+    <div id="countdown"></div>
+  </body>
+</html>

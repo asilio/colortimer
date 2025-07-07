@@ -1,0 +1,29 @@
+{
+  "profiles":[
+      {
+        "name":"Default User",
+        "settings":{
+          "speech volume":1,
+          "prompt volume":0.75,
+          "speech voice":"default",
+          "prompt voice":"default",
+          "speech delay":200
+        },
+        "pages":[
+          {
+            "name":"default",
+            "description":"Simple 3x5 layout",
+            "layout":[3,5],
+            "buttons":[
+              {
+                "position":[0,0],
+                "action":"TTS",
+                "label":"Hello World",
+                "value":"Hello World"
+              }
+            ]
+          }
+        ]
+      }
+  ]
+}

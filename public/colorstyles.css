@@ -1,0 +1,26 @@
+.red{
+  background:red;
+}
+
+.green{
+  background:green;
+}
+
+#countdown{
+  font-size:240;
+  width:100%;
+  text-align:center;
+}
+.neutral{
+  background:gray;
+}
+button, input{
+  min-height:70px;
+  font-size:70px;
+}
+
+body{
+  font-size:xxx-large;
+  height:100%;
+  width:100%;
+}
